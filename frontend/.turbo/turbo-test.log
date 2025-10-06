@@ -1,0 +1,465 @@
+
+
+> ai-learn-frontend@0.1.0 test
+> jest
+
+[1G[0K [33m[1m⚠[22m[39m Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/adipr/package-lock.json as the root directory.
+ To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
+ Detected additional lockfiles: 
+   * /Users/adipr/Desktop/ai-learn/frontend/package-lock.json
+   * /Users/adipr/Desktop/ai-learn/package-lock.json
+
+[1m[2mDetermining test suites to run...[22m[22m[999D[K
+[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2m__tests__/[22m[1mDashboardContent.test.jsx[22m
+[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2m__tests__/[22m[1mDashboardContent.test.jsx[22m
+[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2m__tests__/[22m[1mDashboardContent.test.jsx[22m
+[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2m__tests__/[22m[1mDashboardContent.test.jsx[22m
+[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2m__tests__/[22m[1mDashboardContent.test.jsx[22m
+[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2m__tests__/[22m[1mDashboardContent.test.jsx[22m
+[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2m__tests__/[22m[1mDashboardContent.test.jsx[22m
+[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2m__tests__/[22m[1mDashboardContent.test.jsx[22m
+[K[1A[K[1A[0m[7m[1m[31m FAIL [39m[22m[27m[0m [2m__tests__/[22m[1mDashboardContent.test.jsx[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2m__tests__/[22m[1mDashboardContent.test.jsx[22m
+[K[1A[K[1A  DashboardContent
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2m__tests__/[22m[1mDashboardContent.test.jsx[22m
+[K[1A[K[1A    [31m✕[39m [2mrenders statistics and courses after fetching data (35 ms)[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2m__tests__/[22m[1mDashboardContent.test.jsx[22m
+[K[1A[K[1A    [31m✕[39m [2mshows free plan upgrade banner when user is not a member (1005 ms)[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2m__tests__/[22m[1mDashboardContent.test.jsx[22m
+[K[1A[K[1A    [31m✕[39m [2mhandles empty courses gracefully (1004 ms)[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2m__tests__/[22m[1mDashboardContent.test.jsx[22m
+[K[1A[K[1A    [32m✓[39m [2mshows error toast when fetch fails (6 ms)[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2m__tests__/[22m[1mDashboardContent.test.jsx[22m
+[K[1A[K[1A
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2m__tests__/[22m[1mDashboardContent.test.jsx[22m
+[K[1A[K[1A[1m[31m  [1m● [22m[1mDashboardContent › renders statistics and courses after fetching data[39m[22m
+
+    TestingLibraryElementError: Unable to find an element with the text: /total courses/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+    Ignored nodes: comments, script, style
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"space-y-8 animate-fade-in"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"group relative overflow-hidden bg-white/80 backdrop-blur-sm border border-neutral-200/60 rounded-2xl p-6 shadow-soft hover:shadow-medium transition-all duration-300 loading-shimmer animate-fade-in-up"[39m
+              [33mstyle[39m=[32m"animation-delay: 0ms;"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"absolute inset-0 bg-gradient-to-br from-white/5 to-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"[39m
+              [36m/>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"animate-pulse"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"h-4 bg-neutral-200 rounded w-3/4 mb-3"[39m
+                [36m/>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"h-8 bg-neutral-200 rounded w-1/2"[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"group relative overflow-hidden bg-white/80 backdrop-blur-sm border border-neutral-200/60 rounded-2xl p-6 shadow-soft hover:shadow-medium transition-all duration-300 loading-shimmer animate-fade-in-up"[39m
+              [33mstyle[39m=[32m"animation-delay: 100ms;"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"absolute inset-0 bg-gradient-to-br from-white/5 to-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"[39m
+              [36m/>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"animate-pulse"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"h-4 bg-neutral-200 rounded w-3/4 mb-3"[39m
+                [36m/>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"h-8 bg-neutral-200 rounded w-1/2"[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"group relative overflow-hidden bg-white/80 backdrop-blur-sm border border-neutral-200/60 rounded-2xl p-6 shadow-soft hover:shadow-medium transition-all duration-300 loading-shimmer animate-fade-in-up"[39m
+              [33mstyle[39m=[32m"animation-delay: 200ms;"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"absolute inset-0 bg-gradient-to-br from-white/5 to-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"[39m
+              [36m/>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"animate-pulse"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"h-4 bg-neutral-200 rounded w-3/4 mb-3"[39m
+                [36m/>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"h-8 bg-neutral-200 rounded w-1/2"[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"group relative overflow-hidden bg-white/80 backdrop-blur-sm border border-neutral-200/60 rounded-2xl p-6 shadow-soft hover:shadow-medium transition-all duration-300 loading-shimmer animate-fade-in-up"[39m
+              [33mstyle[39m=[32m"animation-delay: 300ms;"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"absolute inset-0 bg-gradient-to-br from-white/5 to-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"[39m
+              [36m/>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"animate-pulse"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"h-4 bg-neutral-200 rounded w-3/4 mb-3"[39m
+                [36m/>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"h-8 bg-neutral-200 rounded w-1/2"[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"group relative overflow-hidden bg-white/80 backdrop-blur-sm border border-neutral-200/60 rounded-2xl shadow-soft hover:shadow-medium transition-all duration-300 animate-fade-in-up animation-delay-400"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"absolute inset-0 bg-gradient-to-br from-white/5 to-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"[39m
+            [36m/>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"p-8"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"animate-pulse"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"h-6 bg-neutral-200 rounded w-1/4 mb-6"[39m
+                [36m/>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"[39m
+                [36m>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"h-64 bg-neutral-200 rounded-2xl loading-shimmer"[39m
+                  [36m/>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"h-64 bg-neutral-200 rounded-2xl loading-shimmer"[39m
+                  [36m/>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"h-64 bg-neutral-200 rounded-2xl loading-shimmer"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+[2m[22m
+[2m    [0m [90m 62 |[39m     render([33m<[39m[33mDashboardContent[39m user[33m=[39m{mockUser} [33m/[39m[33m>[39m)[22m
+[2m     [90m 63 |[39m[22m
+[2m    [31m[1m>[22m[2m[39m[90m 64 |[39m     expect(screen[33m.[39mgetByText([35m/total courses/i[39m))[33m.[39mtoBeInTheDocument()[22m
+[2m     [90m    |[39m                   [31m[1m^[22m[2m[39m[22m
+[2m     [90m 65 |[39m     expect(screen[33m.[39mgetByText([35m/completed courses/i[39m))[33m.[39mtoBeInTheDocument()[22m
+[2m     [90m 66 |[39m     expect(screen[33m.[39mgetByText([35m/overall progress/i[39m))[33m.[39mtoBeInTheDocument()[22m
+[2m     [90m 67 |[39m[0m[22m
+[2m[22m
+[2m      [2mat Object.getElementError ([22m[2m../node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/config.js[2m:37:19)[22m[2m[22m
+[2m      [2mat [22m[2m../node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js[2m:76:38[22m[2m[22m
+[2m      [2mat [22m[2m../node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js[2m:52:17[22m[2m[22m
+[2m      [2mat [22m[2m../node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js[2m:95:19[22m[2m[22m
+[2m      [2mat Object.getByText ([22m[2m[0m[36m__tests__/DashboardContent.test.jsx[39m[0m[2m:64:19)[22m[2m[22m
+
+[1m[31m  [1m● [22m[1mDashboardContent › shows free plan upgrade banner when user is not a member[39m[22m
+
+    Unable to find an element with the text: /upgrade to ai learn pro/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+    Ignored nodes: comments, script, style
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"space-y-8 animate-fade-in"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"group relative overflow-hidden bg-white/80 backdrop-blur-sm border border-neutral-200/60 rounded-2xl p-6 shadow-soft hover:shadow-medium transition-all duration-300 loading-shimmer animate-fade-in-up"[39m
+              [33mstyle[39m=[32m"animation-delay: 0ms;"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"absolute inset-0 bg-gradient-to-br from-white/5 to-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"[39m
+              [36m/>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"animate-pulse"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"h-4 bg-neutral-200 rounded w-3/4 mb-3"[39m
+                [36m/>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"h-8 bg-neutral-200 rounded w-1/2"[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"group relative overflow-hidden bg-white/80 backdrop-blur-sm border border-neutral-200/60 rounded-2xl p-6 shadow-soft hover:shadow-medium transition-all duration-300 loading-shimmer animate-fade-in-up"[39m
+              [33mstyle[39m=[32m"animation-delay: 100ms;"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"absolute inset-0 bg-gradient-to-br from-white/5 to-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"[39m
+              [36m/>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"animate-pulse"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"h-4 bg-neutral-200 rounded w-3/4 mb-3"[39m
+                [36m/>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"h-8 bg-neutral-200 rounded w-1/2"[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"group relative overflow-hidden bg-white/80 backdrop-blur-sm border border-neutral-200/60 rounded-2xl p-6 shadow-soft hover:shadow-medium transition-all duration-300 loading-shimmer animate-fade-in-up"[39m
+              [33mstyle[39m=[32m"animation-delay: 200ms;"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"absolute inset-0 bg-gradient-to-br from-white/5 to-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"[39m
+              [36m/>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"animate-pulse"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"h-4 bg-neutral-200 rounded w-3/4 mb-3"[39m
+                [36m/>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"h-8 bg-neutral-200 rounded w-1/2"[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"group relative overflow-hidden bg-white/80 backdrop-blur-sm border border-neutral-200/60 rounded-2xl p-6 shadow-soft hover:shadow-medium transition-all duration-300 loading-shimmer animate-fade-in-up"[39m
+              [33mstyle[39m=[32m"animation-delay: 300ms;"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"absolute inset-0 bg-gradient-to-br from-white/5 to-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"[39m
+              [36m/>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"animate-pulse"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"h-4 bg-neutral-200 rounded w-3/4 mb-3"[39m
+                [36m/>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"h-8 bg-neutral-200 rounded w-1/2"[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"group relative overflow-hidden bg-white/80 backdrop-blur-sm border border-neutral-200/60 rounded-2xl shadow-soft hover:shadow-medium transition-all duration-300 animate-fade-in-up animation-delay-400"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"absolute inset-0 bg-gradient-to-br from-white/5 to-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"[39m
+            [36m/>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"p-8"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"animate-pulse"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"h-6 bg-neutral-200 rounded w-1/4 mb-6"[39m
+                [36m/>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"[39m
+                [36m>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"h-64 bg-neutral-200 rounded-2xl loading-shimmer"[39m
+                  [36m/>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"h-64 bg-neutral-200 rounded-2xl loading-shimmer"[39m
+                  [36m/>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"h-64 bg-neutral-200 rounded-2xl loading-shimmer"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+[2m[22m
+[2m    [0m [90m 81 |[39m     render([33m<[39m[33mDashboardContent[39m user[33m=[39m{{ [33m...[39mmockUser[33m,[39m isMember[33m:[39m [36mfalse[39m }} [33m/[39m[33m>[39m)[22m
+[2m     [90m 82 |[39m[22m
+[2m    [31m[1m>[22m[2m[39m[90m 83 |[39m     [36mawait[39m waitFor(() [33m=>[39m {[22m
+[2m     [90m    |[39m                  [31m[1m^[22m[2m[39m[22m
+[2m     [90m 84 |[39m       expect(screen[33m.[39mgetByText([35m/upgrade to ai learn pro/i[39m))[33m.[39mtoBeInTheDocument()[22m
+[2m     [90m 85 |[39m     })[22m
+[2m     [90m 86 |[39m   })[0m[22m
+[2m[22m
+[2m      [2mat waitForWrapper ([22m[2m../node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/wait-for.js[2m:163:27)[22m[2m[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36m__tests__/DashboardContent.test.jsx[39m[0m[2m:83:18)[22m[2m[22m
+
+[1m[31m  [1m● [22m[1mDashboardContent › handles empty courses gracefully[39m[22m
+
+    Unable to find an element with the text: /no courses yet/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+    Ignored nodes: comments, script, style
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"space-y-8 animate-fade-in"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"group relative overflow-hidden bg-white/80 backdrop-blur-sm border border-neutral-200/60 rounded-2xl p-6 shadow-soft hover:shadow-medium transition-all duration-300 loading-shimmer animate-fade-in-up"[39m
+              [33mstyle[39m=[32m"animation-delay: 0ms;"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"absolute inset-0 bg-gradient-to-br from-white/5 to-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"[39m
+              [36m/>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"animate-pulse"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"h-4 bg-neutral-200 rounded w-3/4 mb-3"[39m
+                [36m/>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"h-8 bg-neutral-200 rounded w-1/2"[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"group relative overflow-hidden bg-white/80 backdrop-blur-sm border border-neutral-200/60 rounded-2xl p-6 shadow-soft hover:shadow-medium transition-all duration-300 loading-shimmer animate-fade-in-up"[39m
+              [33mstyle[39m=[32m"animation-delay: 100ms;"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"absolute inset-0 bg-gradient-to-br from-white/5 to-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"[39m
+              [36m/>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"animate-pulse"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"h-4 bg-neutral-200 rounded w-3/4 mb-3"[39m
+                [36m/>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"h-8 bg-neutral-200 rounded w-1/2"[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"group relative overflow-hidden bg-white/80 backdrop-blur-sm border border-neutral-200/60 rounded-2xl p-6 shadow-soft hover:shadow-medium transition-all duration-300 loading-shimmer animate-fade-in-up"[39m
+              [33mstyle[39m=[32m"animation-delay: 200ms;"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"absolute inset-0 bg-gradient-to-br from-white/5 to-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"[39m
+              [36m/>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"animate-pulse"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"h-4 bg-neutral-200 rounded w-3/4 mb-3"[39m
+                [36m/>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"h-8 bg-neutral-200 rounded w-1/2"[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"group relative overflow-hidden bg-white/80 backdrop-blur-sm border border-neutral-200/60 rounded-2xl p-6 shadow-soft hover:shadow-medium transition-all duration-300 loading-shimmer animate-fade-in-up"[39m
+              [33mstyle[39m=[32m"animation-delay: 300ms;"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"absolute inset-0 bg-gradient-to-br from-white/5 to-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"[39m
+              [36m/>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"animate-pulse"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"h-4 bg-neutral-200 rounded w-3/4 mb-3"[39m
+                [36m/>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"h-8 bg-neutral-200 rounded w-1/2"[39m
+                [36m/>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"group relative overflow-hidden bg-white/80 backdrop-blur-sm border border-neutral-200/60 rounded-2xl shadow-soft hover:shadow-medium transition-all duration-300 animate-fade-in-up animation-delay-400"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"absolute inset-0 bg-gradient-to-br from-white/5 to-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"[39m
+            [36m/>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"p-8"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"animate-pulse"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"h-6 bg-neutral-200 rounded w-1/4 mb-6"[39m
+                [36m/>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"[39m
+                [36m>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"h-64 bg-neutral-200 rounded-2xl loading-shimmer"[39m
+                  [36m/>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"h-64 bg-neutral-200 rounded-2xl loading-shimmer"[39m
+                  [36m/>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"h-64 bg-neutral-200 rounded-2xl loading-shimmer"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+[2m[22m
+[2m    [0m [90m 105 |[39m     render([33m<[39m[33mDashboardContent[39m user[33m=[39m{mockUser} [33m/[39m[33m>[39m)[22m
+[2m     [90m 106 |[39m[22m
+[2m    [31m[1m>[22m[2m[39m[90m 107 |[39m     [36mawait[39m waitFor(() [33m=>[39m {[22m
+[2m     [90m     |[39m                  [31m[1m^[22m[2m[39m[22m
+[2m     [90m 108 |[39m       expect(screen[33m.[39mgetByText([35m/no courses yet/i[39m))[33m.[39mtoBeInTheDocument()[22m
+[2m     [90m 109 |[39m       expect(screen[33m.[39mgetByText([35m/create your first course/i[39m))[33m.[39mtoBeInTheDocument()[22m
+[2m     [90m 110 |[39m     })[0m[22m
+[2m[22m
+[2m      [2mat waitForWrapper ([22m[2m../node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/wait-for.js[2m:163:27)[22m[2m[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36m__tests__/DashboardContent.test.jsx[39m[0m[2m:107:18)[22m[2m[22m
+
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2m__tests__/[22m[1mDashboardContent.test.jsx[22m
+[K[1A[K[1A[999D[K[1mTest Suites: [22m[1m[31m1 failed[39m[22m, 1 total
+[1mTests:       [22m[1m[31m3 failed[39m[22m, [1m[32m1 passed[39m[22m, 4 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        2.581 s, estimated 3 s
+[2mRan all test suites[22m[2m.[22m
+[1G[0K\[1G[0K[1mnpm[22m [31merror[39m Lifecycle script `test` failed with error:
+[1G[0K\[1G[0K[1mnpm[22m [31merror[39m [94mcode[39m [33m1[39m
+[1G[0K\[1G[0K[1mnpm[22m [31merror[39m [94mpath[39m /Users/adipr/Desktop/ai-learn/frontend
+[1G[0K\[1G[0K[1mnpm[22m [31merror[39m [94mworkspace[39m ai-learn-frontend@0.1.0
+[1G[0K\[1G[0K[1mnpm[22m [31merror[39m [94mlocation[39m /Users/adipr/Desktop/ai-learn/frontend
+[1G[0K\[1G[0K[1mnpm[22m [31merror[39m command failed
+[1G[0K\[1G[0K[1mnpm[22m [31merror[39m [94mcommand[39m sh -c jest
+[1G[0K\[1G[0K
