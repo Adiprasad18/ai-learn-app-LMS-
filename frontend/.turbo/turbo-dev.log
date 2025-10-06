@@ -19,27 +19,26 @@
      · serverActions
 
  [32m[1m✓[22m[39m Starting...
- [32m[1m✓[22m[39m Ready in 1541ms
- [32m[1m✓[22m[39m Compiled /middleware in 172ms (266 modules)
-<w> [1m[33m[webpack.cache.PackFileCacheStrategy] Serializing big strings (175kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)[39m[22m
+ [32m[1m✓[22m[39m Ready in 2.4s
+ [32m[1m✓[22m[39m Compiled /middleware in 160ms (266 modules)
  [37m[1m○[22m[39m Compiling / ...
- [32m[1m✓[22m[39m Compiled / in 3.6s (2168 modules)
- GET / [32m200[39m in 4373ms
- [32m[1m✓[22m[39m Compiled in 846ms (863 modules)
- GET / [32m200[39m in 117ms
- [37m[1m○[22m[39m Compiling /favicon.ico ...
- [32m[1m✓[22m[39m Compiled /favicon.ico in 611ms (1322 modules)
- GET /favicon.ico [32m200[39m in 975ms
- POST / [32m200[39m in 963ms
+ [32m[1m✓[22m[39m Compiled / in 1558ms (2168 modules)
+ GET / [32m200[39m in 2049ms
+ [32m[1m✓[22m[39m Compiled in 146ms (863 modules)
+ GET / [32m200[39m in 73ms
+ [32m[1m✓[22m[39m Compiled /favicon.ico in 324ms (1322 modules)
+ GET /favicon.ico [32m200[39m in 546ms
+ POST / [32m200[39m in 589ms
  [37m[1m○[22m[39m Compiling /api/create-user ...
- [32m[1m✓[22m[39m Compiled /api/create-user in 1621ms (2399 modules)
- GET /sign-up [32m200[39m in 2681ms
- POST /api/create-user [32m200[39m in 2570ms
- GET /sign-up/SignUp_clerk_catchall_check_1759776147400 [32m200[39m in 480ms
+ [32m[1m✓[22m[39m Compiled /api/create-user in 531ms (2279 modules)
+ [32m[1m✓[22m[39m Compiled /sign-up/[[...sign-up]] in 423ms (2399 modules)
+ GET /sign-up [32m200[39m in 1047ms
+ GET /sign-up/SignUp_clerk_catchall_check_1759784198866 [32m200[39m in 420ms
  [37m[1m○[22m[39m Compiling /dashboard ...
- [32m[1m✓[22m[39m Compiled /dashboard in 1573ms (2598 modules)
- GET /dashboard [32m200[39m in 8189ms
- [32m[1m✓[22m[39m Compiled /api/progress/stats in 253ms (2601 modules)
- GET /api/progress/stats [32m200[39m in 5852ms
- GET /api/progress/stats [32m200[39m in 1225ms
+ [32m[1m✓[22m[39m Compiled /dashboard in 1520ms (2598 modules)
+ POST /api/create-user [32m200[39m in 4492ms
+ GET /dashboard [32m200[39m in 9186ms
+ [32m[1m✓[22m[39m Compiled /api/progress/stats in 353ms (2601 modules)
+ GET /api/progress/stats [32m200[39m in 4515ms
+ GET /api/progress/stats [32m200[39m in 1310ms
 [?25h

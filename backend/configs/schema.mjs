@@ -15,6 +15,7 @@ import {
 /* ===========================
    USER TABLE
 =========================== */
+
 export const USER_TABLE = pgTable(
   "users",
   {
@@ -24,15 +25,13 @@ export const USER_TABLE = pgTable(
     email: varchar("email", { length: 255 }).notNull(),
     createdAt: timestamp("created_at").defaultNow(),
     updatedAt: timestamp("updated_at").defaultNow(),
-    isMember: boolean("is_member").default(false),
-    stripeCustomerId: varchar("stripe_customer_id", { length: 255 }),
-    subscriptionStatus: varchar("subscription_status", { length: 50 }).default("inactive"),
   },
   (table) => ({
     externalIdIdx: uniqueIndex("users_external_id_idx").on(table.externalId),
     emailIdx: uniqueIndex("users_email_idx").on(table.email),
   })
 );
+
 
 /* ===========================
    COURSE TABLE
