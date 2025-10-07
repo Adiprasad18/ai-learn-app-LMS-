@@ -32,7 +32,6 @@
     "@next/env": "^15.5.4"
   },
   "devDependencies": {
-    "@esbuild/darwin-arm64": "^0.25.10",
     "esbuild": "^0.25.10",
     "turbo": "^2.0.6"
   },
