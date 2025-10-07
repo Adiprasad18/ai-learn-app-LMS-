@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm rebuild esbuild && npm run build",
+  "buildCommand": "npm run build",
   "installCommand": "npm ci",
   "framework": "nextjs"
 }
