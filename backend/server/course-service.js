@@ -8,7 +8,7 @@ import {
   QUIZ_TABLE,
   USER_TABLE,
 } from "../configs/schema.js";
-import { eq, and, inArray, asc } from "drizzle-orm";
+import { eq, and, inArray, asc, desc } from "drizzle-orm";
 
 export async function insertCourse(course) {
   const {

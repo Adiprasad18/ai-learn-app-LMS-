@@ -1,12 +1,20 @@
 "use client";
 
 import React, { useState, useEffect, useCallback } from "react";
-import SelectOptions from "./_components/SelectOptions";
-import TopicInput from "./_components/TopicInput";
-import { Button } from "@/components/ui/button";
-import apiClient from "../../api-client";
-import { useUser } from "@clerk/nextjs";
-import { Sparkles, ArrowLeft, ArrowRight, Loader2, CheckCircle2, XCircle, AlertCircle } from "lucide-react";
+import SelectOptions from "./_components/SelectOptions"; // must be a client component
+import TopicInput from "./_components/TopicInput"; // must be a client component
+import { Button } from "@/components/ui/button"; // must be a client component
+import apiClient from "../../api-client"; // ensure it's safe to use in client
+import { useUser } from "@clerk/nextjs"; // only in client
+import {
+  Sparkles,
+  ArrowLeft,
+  ArrowRight,
+  Loader2,
+  CheckCircle2,
+  XCircle,
+  AlertCircle,
+} from "lucide-react";
 import Link from "next/link";
 
 function Create() {

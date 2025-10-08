@@ -3,205 +3,20 @@
 > ai-learn-backend@0.1.0 test
 > node --experimental-vm-modules ../node_modules/jest/bin/jest.js
 
-[1G[0K[1m[2mDetermining test suites to run...[22m[22m[999D[K
-[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mserver/[22m[1mfinal-assessment-utils.test.js[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mserver/[22m[1mfinal-assessment-utils.test.js[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mserver/[22m[1mfinal-assessment-utils.test.js[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mserver/[22m[1mfinal-assessment-utils.test.js[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mserver/[22m[1mfinal-assessment-utils.test.js[22m
-[K[1A[K[1A(node:8089) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
-(Use `node --trace-warnings ...` to show where the warning was created)
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mserver/[22m[1mfinal-assessment-utils.test.js[22m
-[K[1A[K[1A[0m[7m[1m[31m FAIL [39m[22m[27m[0m [2mserver/[22m[1mfinal-assessment-utils.test.js[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mserver/[22m[1mfinal-assessment-utils.test.js[22m
-[K[1A[K[1A  [1m● [22mConsole
-
-    [2m[33mconsole.warn[39m[22m
-[33m      Final assessment tables are not available. Skipping related queries.[39m
-[2m[22m
-[2m    [0m [90m 42 |[39m[22m
-[2m     [90m 43 |[39m     [36mif[39m ([33m![39mavailable) {[22m
-[2m    [31m[1m>[22m[2m[39m[90m 44 |[39m       console[33m.[39mwarn([32m"Final assessment tables are not available. Skipping related queries."[39m)[33m;[39m[22m
-[2m     [90m    |[39m               [31m[1m^[22m[2m[39m[22m
-[2m     [90m 45 |[39m     }[22m
-[2m     [90m 46 |[39m[22m
-[2m     [90m 47 |[39m     [36mreturn[39m available[33m;[39m[0m[22m
-[2m[22m
-[2m      [2mat areFinalAssessmentTablesAvailable ([22m[2mserver/final-assessment-utils.js[2m:44:15)[22m[2m[22m
-[2m      [2mat Object.<anonymous> ([22m[2m[0m[36mserver/final-assessment-utils.test.js[39m[0m[2m:55:20)[22m[2m[22m
-
-    [2m[33mconsole.warn[39m[22m
-[33m      Failed to verify final assessment tables. Assuming unavailable. Error: connection error[39m
-[33m          at Object.<anonymous> (/Users/adipr/Desktop/ai-learn/backend/server/final-assessment-utils.test.js:61:37)[39m
-[33m          at Promise.then.completed (/Users/adipr/Desktop/ai-learn/node_modules/jest-circus/build/utils.js:298:28)[39m
-[33m          at new Promise (<anonymous>)[39m
-[33m          at callAsyncCircusFn (/Users/adipr/Desktop/ai-learn/node_modules/jest-circus/build/utils.js:231:10)[39m
-[33m          at _callCircusTest (/Users/adipr/Desktop/ai-learn/node_modules/jest-circus/build/run.js:316:40)[39m
-[33m          at processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
-[33m          at _runTest (/Users/adipr/Desktop/ai-learn/node_modules/jest-circus/build/run.js:252:3)[39m
-[33m          at _runTestsForDescribeBlock (/Users/adipr/Desktop/ai-learn/node_modules/jest-circus/build/run.js:126:9)[39m
-[33m          at _runTestsForDescribeBlock (/Users/adipr/Desktop/ai-learn/node_modules/jest-circus/build/run.js:121:9)[39m
-[33m          at run (/Users/adipr/Desktop/ai-learn/node_modules/jest-circus/build/run.js:71:3)[39m
-[33m          at runAndTransformResultsToJestFormat (/Users/adipr/Desktop/ai-learn/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)[39m
-[33m          at jestAdapter (/Users/adipr/Desktop/ai-learn/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)[39m
-[33m          at runTestInternal (/Users/adipr/Desktop/ai-learn/node_modules/jest-runner/build/runTest.js:367:16)[39m
-[33m          at runTest (/Users/adipr/Desktop/ai-learn/node_modules/jest-runner/build/runTest.js:444:34)[39m
-[2m[22m
-[2m    [0m [90m 47 |[39m     [36mreturn[39m available[33m;[39m[22m
-[2m     [90m 48 |[39m   } [36mcatch[39m (error) {[22m
-[2m    [31m[1m>[22m[2m[39m[90m 49 |[39m     console[33m.[39mwarn([32m"Failed to verify final assessment tables. Assuming unavailable."[39m[33m,[39m error)[33m;[39m[22m
-[2m     [90m    |[39m             [31m[1m^[22m[2m[39m[22m
-[2m     [90m 50 |[39m[22m
-[2m     [90m 51 |[39m     cache [33m=[39m {[22m
-[2m     [90m 52 |[39m       available[33m:[39m [36mfalse[39m[33m,[39m[0m[22m
-[2m[22m
-[2m      [2mat areFinalAssessmentTablesAvailable ([22m[2mserver/final-assessment-utils.js[2m:49:13)[22m[2m[22m
-[2m      [2mat Object.<anonymous> ([22m[2m[0m[36mserver/final-assessment-utils.test.js[39m[0m[2m:63:20)[22m[2m[22m
-
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mserver/[22m[1mfinal-assessment-utils.test.js[22m
-[K[1A[K[1A[1m[31m  [1m● [22m[1mareFinalAssessmentTablesAvailable › returns true when all tables exist[39m[22m
-
-    TypeError: any() expects to be passed a constructor function. Please pass one or use anything() to match any object.
-[2m[22m
-[2m    [0m [90m 39 |[39m     expect(result)[33m.[39mtoBe([36mtrue[39m)[33m;[39m[22m
-[2m     [90m 40 |[39m     expect(__mockExecute)[33m.[39mtoHaveBeenCalledTimes([35m1[39m)[33m;[39m[22m
-[2m    [31m[1m>[22m[2m[39m[90m 41 |[39m     expect(__mockExecute[33m.[39mmock[33m.[39mcalls[[35m0[39m][[35m0[39m])[33m.[39mtoEqual(expect[33m.[39many(sql[33m.[39m[33mSql[39m))[33m;[39m[22m
-[2m     [90m    |[39m                                                           [31m[1m^[22m[2m[39m[22m
-[2m     [90m 42 |[39m   })[33m;[39m[22m
-[2m     [90m 43 |[39m[22m
-[2m     [90m 44 |[39m   it([32m"returns false when any table is missing"[39m[33m,[39m [36masync[39m () [33m=>[39m {[0m[22m
-[2m[22m
-[2m      [2mat new Any ([22m[2m../node_modules/expect/build/asymmetricMatchers.js[2m:129:13)[22m[2m[22m
-[2m      [2mat expect.any ([22m[2m../node_modules/expect/build/asymmetricMatchers.js[2m:351:31)[22m[2m[22m
-[2m      [2mat Object.<anonymous> ([22m[2m[0m[36mserver/final-assessment-utils.test.js[39m[0m[2m:41:59)[22m[2m[22m
-
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mserver/[22m[1mfinal-assessment-utils.test.js[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mserver/[22m[1mfinal-assessment-utils.test.js[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mserver/[22m[1mcourse-service.test.js[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mserver/[22m[1mcourse-service.test.js[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mserver/[22m[1mcourse-service.test.js[22m
-[K[1A[K[1A[0m[7m[1m[31m FAIL [39m[22m[27m[0m [2mserver/[22m[1mcourse-service.test.js[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mserver/[22m[1mcourse-service.test.js[22m
-[K[1A[K[1A[1m[31m  [1m● [22m[1mgetCourseDetail › returns course without final test when tables absent[39m[22m
-
-    TypeError: chapters is not iterable
-[2m[22m
-[2m    [0m [90m 111 |[39m   ])[33m;[39m[22m
-[2m     [90m 112 |[39m[22m
-[2m    [31m[1m>[22m[2m[39m[90m 113 |[39m   [36mconst[39m sortedChapters [33m=[39m [[33m...[39mchapters][33m.[39msort((a[33m,[39m b) [33m=>[39m a[33m.[39morder [33m-[39m b[33m.[39morder)[33m;[39m[22m
-[2m     [90m     |[39m                              [31m[1m^[22m[2m[39m[22m
-[2m     [90m 114 |[39m   [36mconst[39m chapterIds [33m=[39m sortedChapters[33m.[39mmap((chapter) [33m=>[39m chapter[33m.[39mid)[33m;[39m[22m
-[2m     [90m 115 |[39m[22m
-[2m     [90m 116 |[39m   [36mconst[39m notes [33m=[39m chapterIds[33m.[39mlength[0m[22m
-[2m[22m
-[2m      [2mat getCourseDetail ([22m[2mserver/course-service.js[2m:113:30)[22m[2m[22m
-[2m      [2mat Object.<anonymous> ([22m[2m[0m[36mserver/course-service.test.js[39m[0m[2m:45:20)[22m[2m[22m
-
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2mserver/[22m[1mcourse-service.test.js[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2m__tests__/services/[22m[1mprogress-service.test.js[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2m__tests__/services/[22m[1mprogress-service.test.js[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2m__tests__/services/[22m[1mprogress-service.test.js[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2m__tests__/services/[22m[1mprogress-service.test.js[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2m__tests__/services/[22m[1mprogress-service.test.js[22m
-[K[1A[K[1A[0m[7m[1m[31m FAIL [39m[22m[27m[0m [2m__tests__/services/[22m[1mprogress-service.test.js[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2m__tests__/services/[22m[1mprogress-service.test.js[22m
-[K[1A[K[1A[1m[31m  [1m● [22m[1mprogress-service › returns first course progress row when present[39m[22m
-
-    [2mexpect([22m[31mreceived[39m[2m).[22mtoEqual[2m([22m[32mexpected[39m[2m) // deep equality[22m
-
-    [32m- Expected  - 3[39m
-    [31m+ Received  + 4[39m
-
-    [2m  Object {[22m
-    [32m-   "completedChapters": "2",[39m
-    [31m+   "completedChapters": 2,[39m
-    [2m    "courseId": "course-1",[22m
-    [32m-   "progressPercentage": "67",[39m
-    [32m-   "totalChapters": "3",[39m
-    [31m+   "progressPercentage": 67,[39m
-    [31m+   "totalChapters": 3,[39m
-    [31m+   "weightedProgress": 67,[39m
-    [2m  }[22m
-[2m[22m
-[2m    [0m [90m 87 |[39m[22m
-[2m     [90m 88 |[39m     [36mconst[39m result [33m=[39m [36mawait[39m getCourseProgress([32m"user-1"[39m[33m,[39m [32m"course-1"[39m)[33m;[39m[22m
-[2m    [31m[1m>[22m[2m[39m[90m 89 |[39m     expect(result)[33m.[39mtoEqual(rows[[35m0[39m])[33m;[39m[22m
-[2m     [90m    |[39m                    [31m[1m^[22m[2m[39m[22m
-[2m     [90m 90 |[39m   })[33m;[39m[22m
-[2m     [90m 91 |[39m[22m
-[2m     [90m 92 |[39m   it([32m"returns all rows for getAllCoursesProgress"[39m[33m,[39m [36masync[39m () [33m=>[39m {[0m[22m
-[2m[22m
-[2m      [2mat Object.<anonymous> ([22m[2m[0m[36m__tests__/services/progress-service.test.js[39m[0m[2m:89:20)[22m[2m[22m
-
-[1m[31m  [1m● [22m[1mprogress-service › returns all rows for getAllCoursesProgress[39m[22m
-
-    [2mexpect([22m[31mreceived[39m[2m).[22mtoEqual[2m([22m[32mexpected[39m[2m) // deep equality[22m
-
-    [32m- Expected  - 2[39m
-    [31m+ Received  + 8[39m
-
-    [2m  Array [[22m
-    [2m    Object {[22m
-    [31m+     "completedChapters": 0,[39m
-    [2m      "courseId": "course-1",[22m
-    [32m-     "totalChapters": "5",[39m
-    [31m+     "progressPercentage": 0,[39m
-    [31m+     "totalChapters": 5,[39m
-    [31m+     "weightedProgress": 0,[39m
-    [2m    },[22m
-    [2m    Object {[22m
-    [31m+     "completedChapters": 0,[39m
-    [2m      "courseId": "course-2",[22m
-    [32m-     "totalChapters": "3",[39m
-    [31m+     "progressPercentage": 0,[39m
-    [31m+     "totalChapters": 3,[39m
-    [31m+     "weightedProgress": 0,[39m
-    [2m    },[22m
-    [2m  ][22m
-[2m[22m
-[2m    [0m [90m  98 |[39m[22m
-[2m     [90m  99 |[39m     [36mconst[39m result [33m=[39m [36mawait[39m getAllCoursesProgress([32m"user-1"[39m)[33m;[39m[22m
-[2m    [31m[1m>[22m[2m[39m[90m 100 |[39m     expect(result)[33m.[39mtoEqual(rows)[33m;[39m[22m
-[2m     [90m     |[39m                    [31m[1m^[22m[2m[39m[22m
-[2m     [90m 101 |[39m   })[33m;[39m[22m
-[2m     [90m 102 |[39m[22m
-[2m     [90m 103 |[39m   it([32m"parses numbers and computes overall progress"[39m[33m,[39m [36masync[39m () [33m=>[39m {[0m[22m
-[2m[22m
-[2m      [2mat Object.<anonymous> ([22m[2m[0m[36m__tests__/services/progress-service.test.js[39m[0m[2m:100:20)[22m[2m[22m
-
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2m__tests__/services/[22m[1mprogress-service.test.js[22m
-[K[1A[K[1A[999D[K[1mTest Suites: [22m[1m[31m3 failed[39m[22m, 3 total
-[1mTests:       [22m[1m[31m4 failed[39m[22m, [1m[32m5 passed[39m[22m, 9 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        0.334 s, estimated 1 s
-[2mRan all test suites[22m[2m.[22m
-[1G[0K⠙[1G[0K[1mnpm[22m [31merror[39m Lifecycle script `test` failed with error:
-[1G[0K⠙[1G[0K[1mnpm[22m [31merror[39m [94mcode[39m [33m1[39m
-[1G[0K⠙[1G[0K[1mnpm[22m [31merror[39m [94mpath[39m /Users/adipr/Desktop/ai-learn/backend
-[1G[0K⠙[1G[0K[1mnpm[22m [31merror[39m [94mworkspace[39m ai-learn-backend@0.1.0
-[1G[0K⠙[1G[0K[1mnpm[22m [31merror[39m [94mlocation[39m /Users/adipr/Desktop/ai-learn/backend
-[1G[0K⠙[1G[0K[1mnpm[22m [31merror[39m command failed
-[1G[0K⠙[1G[0K[1mnpm[22m [31merror[39m [94mcommand[39m sh -c node --experimental-vm-modules ../node_modules/jest/bin/jest.js
-[1G[0K⠙[1G[0K
+[1G[0K[1m[2mDetermining test suites to run...[22m[22m[999D[K[1mNo tests found, exiting with code 1[22m
+Run with `--passWithNoTests` to exit with code 0
+In [1m/Users/adipr/Desktop/ai-learn/backend[22m
+  5 files checked.
+  roots: [33m/Users/adipr/Desktop/ai-learn/backend/__tests__, /Users/adipr/Desktop/ai-learn/backend/server, /Users/adipr/Desktop/ai-learn/backend/services[39m - 5 matches
+  testMatch: [33m**/__tests__/**/*.[jt]s?(x), **/?(*.)+(spec|test).[tj]s?(x)[39m - 0 matches
+  testPathIgnorePatterns: [33m/node_modules/[39m - 5 matches
+  testRegex:  - 0 matches
+Pattern:  - 0 matches
+[1G[0K\[1G[0K[1mnpm[22m [31merror[39m Lifecycle script `test` failed with error:
+[1G[0K\[1G[0K[1mnpm[22m [31merror[39m [94mcode[39m [33m1[39m
+[1G[0K\[1G[0K[1mnpm[22m [31merror[39m [94mpath[39m /Users/adipr/Desktop/ai-learn/backend
+[1G[0K\[1G[0K[1mnpm[22m [31merror[39m [94mworkspace[39m ai-learn-backend@0.1.0
+[1G[0K\[1G[0K[1mnpm[22m [31merror[39m [94mlocation[39m /Users/adipr/Desktop/ai-learn/backend
+[1G[0K\[1G[0K[1mnpm[22m [31merror[39m command failed
+[1G[0K\[1G[0K[1mnpm[22m [31merror[39m [94mcommand[39m sh -c node --experimental-vm-modules ../node_modules/jest/bin/jest.js
+[1G[0K\[1G[0K

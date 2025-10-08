@@ -3,28 +3,33 @@
 > ai-learn-frontend@0.1.0 build
 > next build
 
-[1G[0K [33m[1m⚠[22m[39m Warning: Next.js inferred your workspace root, but it may not be correct.
- We detected multiple lockfiles and selected the directory of /Users/adipr/package-lock.json as the root directory.
- To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
-   See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
- Detected additional lockfiles: 
-   * /Users/adipr/Desktop/ai-learn/package-lock.json
-
-   [1m[38;2;173;127;168m▲ Next.js 15.5.3[39m[22m
+[1G[0K   [1m[38;2;173;127;168m▲ Next.js 15.5.3[39m[22m
    - Environments: .env.local
    - Experiments (use with caution):
      · serverActions
 
  [37m[1m [22m[39m Creating an optimized production build ...
- ⚠ Found lockfile missing swc dependencies, patching...
- ⚠ Lockfile was successfully patched, please run "npm install" to ensure @next/swc dependencies are downloaded
- [32m[1m✓[22m[39m Compiled successfully in 3.5s
-[?25l [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G[1A[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G[1A[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G[1A[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G[1A[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G[1A[2K[1G[?25h [37m[1m [22m[39m Linting and checking validity of types     [32m[1m✓[22m[39m Linting and checking validity of types 
-[?25l [37m[1m [22m[39m Collecting page data  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting page data  [36m..[39m[2K[1G[?25h [37m[1m [22m[39m Collecting page data     [32m[1m✓[22m[39m Collecting page data 
-[?25l [37m[1m [22m[39m Generating static pages (0/26)  [36m[    ][39m[2K[1G[1A[2K[1G[?25h[TypeError: Cannot read properties of null (reading 'useContext')]
-Error occurred prerendering page "/500". Read more: https://nextjs.org/docs/messages/prerender-error
+ ⚠ Compiled with warnings in 1903ms
+
+./app/api/test-ai/route.js
+Module not found: Can't resolve '@backend/ai/content-generator' in '/Users/adipr/Desktop/ai-learn/frontend/app/api/test-ai'
+
+Import trace for requested module:
+./app/api/test-ai/route.js
+
+./app/api/test-ai/route.js
+Module not found: Can't resolve '@backend/ai/streaming-service' in '/Users/adipr/Desktop/ai-learn/frontend/app/api/test-ai'
+
+Import trace for requested module:
+./app/api/test-ai/route.js
+
+ [32m[1m✓[22m[39m Compiled successfully in 3.4s
+[?25l [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G[?25h [37m[1m [22m[39m Linting and checking validity of types     [32m[1m✓[22m[39m Linting and checking validity of types 
+[?25l [37m[1m [22m[39m Collecting page data  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting page data  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting page data  [36m...[39m[2K[1G[?25h [37m[1m [22m[39m Collecting page data     [32m[1m✓[22m[39m Collecting page data 
+[?25l [37m[1m [22m[39m Generating static pages (0/25)  [36m[    ][39m[2K[1G[?25h[TypeError: Cannot read properties of null (reading 'useContext')]
+Error occurred prerendering page "/404". Read more: https://nextjs.org/docs/messages/prerender-error
 [TypeError: Cannot read properties of null (reading 'useContext')]
-Export encountered an error on /_error: /500, exiting the build.
+Export encountered an error on /_error: /404, exiting the build.
  [31m[1m⨯[22m[39m Next.js build worker exited with code: 1 and signal: null
 [?25h[1G[0K⠙[1G[0K[1mnpm[22m [31merror[39m Lifecycle script `build` failed with error:
 [1G[0K⠙[1G[0K[1mnpm[22m [31merror[39m [94mcode[39m [33m1[39m
